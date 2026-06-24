@@ -45,65 +45,160 @@
 
       <div class="assistant-card" aria-label="Asistente farmacéutico Cabo">
         <div class="speech"><strong>¡Hola!</strong><br>Soy Cabo,<br>tu asistente farmacéutico.</div>
-        <div class="penguin hero-penguin" aria-hidden="true">
-          <div class="hair"></div>
-          <div class="head">
-            <div class="face"></div>
-            <div class="glasses left"></div><div class="glasses right"></div>
-            <div class="eye left"></div><div class="eye right"></div>
-            <div class="beak"></div>
-          </div>
-          <div class="body"><div class="tie"></div><div class="coat-line"></div><div class="badge"></div></div>
-          <div class="wing"></div><div class="hand"></div>
-        </div>
+        <img class="hero-penguin" src="cabo-hero.png" alt="Cabo, el pingüino asistente farmacéutico" />
       </div>
     </section>
 
     <section id="productos" class="products" aria-labelledby="products-title">
       <h2 id="products-title">Productos recomendados</h2>
       <div class="product-grid">
-        <article class="product-card">
+        <article class="product-card product-visible">
           <div class="product-image bottle"></div>
           <h3>Miralax Citrato</h3>
           <p>Farmal Farmatech</p>
           <strong>$0.000</strong>
           <button>Añadir al carrito</button>
         </article>
-        <article class="product-card">
+        <article class="product-card product-visible">
           <div class="product-image purple-box"></div>
           <h3>Nexium Ecozalt</h3>
           <p>Valor farmacéutico</p>
           <strong>$0.000</strong>
           <button>Añadir al carrito</button>
         </article>
-        <article class="product-card">
+        <article class="product-card product-visible">
           <div class="product-image white-box red"></div>
           <h3>Omeprazol</h3>
           <p>Zapustech</p>
           <strong>$0.000</strong>
           <button>Añadir al carrito</button>
         </article>
-        <article class="product-card">
+        <article class="product-card product-visible">
           <div class="product-image orange-box"></div>
           <h3>Omeprazol 350</h3>
           <p>Inalumnfabols</p>
           <strong>$0.000</strong>
           <button>Añadir al carrito</button>
         </article>
-        <article class="product-card">
+        <article class="product-card product-visible">
           <div class="product-image white-box yellow"></div>
           <h3>Orencex 500</h3>
           <p>Cápsulas</p>
           <strong>$0.000</strong>
           <button>Añadir al carrito</button>
         </article>
+        <article class="product-card product-hidden">
+          <div class="product-image bottle"></div>
+          <h3>Paracetamol</h3>
+          <p>Para fiebre y dolor</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image purple-box"></div>
+          <h3>Ibuprofeno</h3>
+          <p>Antiinflamatorio y analgésico</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image white-box red"></div>
+          <h3>Aspirina</h3>
+          <p>Dolor y fiebre</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image orange-box"></div>
+          <h3>Loratadina</h3>
+          <p>Para alergias</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image white-box yellow"></div>
+          <h3>Cetirizina</h3>
+          <p>Antihistamínico</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image bottle"></div>
+          <h3>Antiácidos</h3>
+          <p>Malestar estomacal</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image purple-box"></div>
+          <h3>Jarabes para la tos</h3>
+          <p>Expectorante</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image white-box red"></div>
+          <h3>Cremas antimicóticas</h3>
+          <p>Infecciones fúngicas</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image orange-box"></div>
+          <h3>Sales de rehidratación</h3>
+          <p>Bebida rehidratante</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card product-hidden">
+          <div class="product-image white-box yellow"></div>
+          <h3>Vitaminas y suplementos</h3>
+          <p>Complementos vitamínicos</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+      </div>
+      <div class="show-more-container">
+        <button class="show-more-btn" id="showMoreBtn">Mostrar más</button>
       </div>
     </section>
-
-    <a id="contacto" class="chat" href="mailto:hola@farmatech.demo" aria-label="Habla con Cabo">
-      <div class="mini-penguin" aria-hidden="true"></div>
-      <span>Habla con Cabo</span>
-    </a>
   </main>
+
+  <footer class="credits">
+    <p>Proyecto Farmatech hecho por Camila, Rocío, Guido, Mariana, Joshua.</p>
+  </footer>
+
+  <button id="chatBtn" class="chat" aria-label="Habla con Cabo">
+    <img class="mini-penguin" src="cabo-chat.png" alt="" />
+    <span>Habla con Cabo</span>
+  </button>
+
+  <!-- Modal de opciones -->
+  <div id="chatModal" class="chat-modal">
+    <div class="chat-modal-content">
+      <button class="close-modal">&times;</button>
+      <div class="modal-header">
+        <img src="cabo-chat.png" alt="Cabo" class="modal-penguin">
+        <h2>¿En qué te puedo ayudar?</h2>
+      </div>
+      <div class="modal-options">
+        <button class="modal-option" data-option="medicamento">
+          <span class="option-icon">💊</span>
+          <span>Consulta de medicamento</span>
+        </button>
+        <button class="modal-option" data-option="horarios">
+          <span class="option-icon">🕐</span>
+          <span>Horarios</span>
+        </button>
+        <button class="modal-option" data-option="ubicacion">
+          <span class="option-icon">📍</span>
+          <span>Ubicación de sucursales</span>
+        </button>
+      </div>
+      <div id="modalResponse" class="modal-response"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
