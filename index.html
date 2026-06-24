@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farmatech | Farmacia Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand" href="#" aria-label="Farmatech inicio">
+        <span class="brand-icon" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><strong></strong>
+        </span>
+        <span>FARMA<span>TECH</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <button class="cart" aria-label="Carrito con 0 productos">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2Zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2ZM7.2 14.5h7.45c.75 0 1.41-.41 1.75-1.03L20 6.95 18.25 6l-3.6 6.5H7.63L3.45 3H1v2h1.15l3.6 8.32-1.35 2.45C3.67 17.1 4.63 18 6 18h13v-2H6l1.2-1.5Z"/></svg>
+        <span>0</span>
+      </button>
+    </nav>
+
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Entrega rápida · Atención personalizada</p>
+        <h1>Tu Farmacia <span>Online</span><br>de confianza</h1>
+        <form class="search" aria-label="Buscar medicamentos o productos">
+          <input type="search" placeholder="Buscar medicamentos o productos..." />
+          <button type="submit" aria-label="Buscar">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 19.6-5.4-5.4a7.3 7.3 0 1 0-1.4 1.4l5.4 5.4 1.4-1.4ZM4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0Z"/></svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="assistant-card" aria-label="Asistente farmacéutico Cabo">
+        <div class="speech"><strong>¡Hola!</strong><br>Soy Cabo,<br>tu asistente farmacéutico.</div>
+        <div class="penguin hero-penguin" aria-hidden="true">
+          <div class="hair"></div>
+          <div class="head">
+            <div class="face"></div>
+            <div class="glasses left"></div><div class="glasses right"></div>
+            <div class="eye left"></div><div class="eye right"></div>
+            <div class="beak"></div>
+          </div>
+          <div class="body"><div class="tie"></div><div class="coat-line"></div><div class="badge"></div></div>
+          <div class="wing"></div><div class="hand"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="products" aria-labelledby="products-title">
+      <h2 id="products-title">Productos recomendados</h2>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image bottle"></div>
+          <h3>Miralax Citrato</h3>
+          <p>Farmal Farmatech</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image purple-box"></div>
+          <h3>Nexium Ecozalt</h3>
+          <p>Valor farmacéutico</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image white-box red"></div>
+          <h3>Omeprazol</h3>
+          <p>Zapustech</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image orange-box"></div>
+          <h3>Omeprazol 350</h3>
+          <p>Inalumnfabols</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image white-box yellow"></div>
+          <h3>Orencex 500</h3>
+          <p>Cápsulas</p>
+          <strong>$0.000</strong>
+          <button>Añadir al carrito</button>
+        </article>
+      </div>
+    </section>
+
+    <a id="contacto" class="chat" href="mailto:hola@farmatech.demo" aria-label="Habla con Cabo">
+      <div class="mini-penguin" aria-hidden="true"></div>
+      <span>Habla con Cabo</span>
+    </a>
+  </main>
+</body>
+</html>
