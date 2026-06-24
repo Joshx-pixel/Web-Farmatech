@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (optionType === 'horarios') {
         response = '🕐 <strong>Horarios de atención:</strong><br>Lunes a Viernes: 8:00 AM - 8:00 PM<br>Sábados: 9:00 AM - 6:00 PM<br>Domingos: 10:00 AM - 4:00 PM';
       } else if (optionType === 'ubicacion') {
-        response = '📍 <strong>Ubicación de sucursales:</strong><br>Sucursal Centro: Calle Principal 123<br>Sucursal Norte: Avenida Las Mercedes 456<br>Sucursal Sur: Boulevard Independencia 789';
+        response = '📍 <strong>Ubicación de sucursales:</strong><br>Sarmiento, Godoy Cruz<br>Ozamis, Maipu<br>San Martin, Ciudad';
       }
 
       modalResponse.innerHTML = response;
